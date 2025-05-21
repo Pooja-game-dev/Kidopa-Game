@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 1cb237447d8249847b85f25d33185b94
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2287579188129303371
+    second: Banana_Bonav=nza_LO_0
+  - first:
+      213: -2109279582370704541
+    second: Banana_Bonav=nza_LO_1
+  - first:
+      213: -6388495837346342113
+    second: Banana_Bonav=nza_LO_2
+  - first:
+      213: -2828995926224090711
+    second: Banana_Bonav=nza_LO_3
+  - first:
+      213: -8733625804325697621
+    second: Banana_Bonav=nza_LO_4
+  - first:
+      213: 3844691301215239252
+    second: Banana_Bonav=nza_LO_5
+  - first:
+      213: -527622808627523550
+    second: Banana_Bonav=nza_LO_6
+  - first:
+      213: 2711146664075828741
+    second: Banana_Bonav=nza_LO_7
+  - first:
+      213: -1253977612540333958
+    second: Banana_Bonav=nza_LO_8
+  - first:
+      213: -615311203288991797
+    second: Banana_Bonav=nza_LO_9
+  - first:
+      213: -684455068493038893
+    second: Banana_Bonav=nza_LO_10
+  - first:
+      213: 6312498115955705693
+    second: Banana_Bonav=nza_LO_11
+  - first:
+      213: -359700147600636012
+    second: Banana_Bonav=nza_LO_12
+  - first:
+      213: -2934235575200586864
+    second: Banana_Bonav=nza_LO_13
+  - first:
+      213: 1829376276943743855
+    second: Banana_Bonav=nza_LO_14
+  - first:
+      213: -6823486097273822985
+    second: Banana_Bonav=nza_LO_15
+  - first:
+      213: -5808558842537350276
+    second: Banana_Bonav=nza_LO_16
+  - first:
+      213: 3988097436804969013
+    second: Banana_Bonav=nza_LO_17
+  - first:
+      213: 1776734890806865949
+    second: Banana_Bonav=nza_LO_18
+  - first:
+      213: 9057096582275379722
+    second: Banana_Bonav=nza_LO_19
+  - first:
+      213: -2252969441354053323
+    second: Banana_Bonav=nza_LO_20
+  - first:
+      213: 4338725486322042780
+    second: Banana_Bonav=nza_LO_21
+  - first:
+      213: -359692157372210975
+    second: Banana_Bonav=nza_LO_22
+  - first:
+      213: -241960433562971469
+    second: Banana_Bonav=nza_LO_23
+  - first:
+      213: -1414463083577184897
+    second: Banana_Bonav=nza_LO_24
+  - first:
+      213: 6784556244430469030
+    second: Banana_Bonav=nza_LO_25
+  - first:
+      213: 2087617625329929154
+    second: Banana_Bonav=nza_LO_26
+  - first:
+      213: -4904689992768057226
+    second: Banana_Bonav=nza_LO_27
+  - first:
+      213: -2521511909357462277
+    second: Banana_Bonav=nza_LO_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1536
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4f9f739d2e040e0800000000000000
+      internalID: -2287579188129303371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 438
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3635fc035655ab2e0800000000000000
+      internalID: -2109279582370704541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 398
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bd8e532e08757a0800000000000000
+      internalID: -6388495837346342113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 310
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9c26a91336db8d0800000000000000
+      internalID: -2828995926224090711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 230
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba74bfb8a9debc680800000000000000
+      internalID: -8733625804325697621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_5
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 182
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45cf7ff4e561b5530800000000000000
+      internalID: 3844691301215239252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 134
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220dc5cd9d18da8f0800000000000000
+      internalID: -527622808627523550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 125
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e9936d68def9520800000000000000
+      internalID: 2711146664075828741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 94
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70bd38510af89ee0800000000000000
+      internalID: -1253977612540333958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 62
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc734ad78b9f577f0800000000000000
+      internalID: -615311203288991797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_10
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 304
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dab1c9ddb35086f0800000000000000
+      internalID: -684455068493038893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_11
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 356
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57ccd6679f7a9750800000000000000
+      internalID: 6312498115955705693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_12
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 254
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497cb9c1f96120bf0800000000000000
+      internalID: -359700147600636012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_13
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 224
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093ead46a408747d0800000000000000
+      internalID: -2934235575200586864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_14
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 198
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b22cb0800436910800000000000000
+      internalID: 1829376276943743855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_15
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 225
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f06d220c8b1e41a0800000000000000
+      internalID: -6823486097273822985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_16
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 93
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b6b9df18ad36fa0800000000000000
+      internalID: -5808558842537350276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_17
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 440
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532f76a2d71985730800000000000000
+      internalID: 3988097436804969013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_18
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 328
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10f59a38fa38a810800000000000000
+      internalID: 1776734890806865949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_19
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 295
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02bde2ea5541bd70800000000000000
+      internalID: 9057096582275379722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_20
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 285
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5390846da38dbb0e0800000000000000
+      internalID: -2252969441354053323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_21
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 256
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97c82e97df363c30800000000000000
+      internalID: 4338725486322042780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_22
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 239
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0e55b73ed120bf0800000000000000
+      internalID: -359692157372210975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_23
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 199
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b297c3844264acf0800000000000000
+      internalID: -241960433562971469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_24
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 192
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d6a73d151de5ce0800000000000000
+      internalID: -1414463083577184897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_25
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 135
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7bfeb45f5972e50800000000000000
+      internalID: 6784556244430469030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_26
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb82a86b25b8fc10800000000000000
+      internalID: 2087617625329929154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_27
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 450
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67095af007a0febb0800000000000000
+      internalID: -4904689992768057226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Banana_Bonav=nza_LO_28
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 442
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfcd4d9274ac10dd0800000000000000
+      internalID: -2521511909357462277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Banana_Bonav=nza_LO_0: -2287579188129303371
+      Banana_Bonav=nza_LO_1: -2109279582370704541
+      Banana_Bonav=nza_LO_10: -684455068493038893
+      Banana_Bonav=nza_LO_11: 6312498115955705693
+      Banana_Bonav=nza_LO_12: -359700147600636012
+      Banana_Bonav=nza_LO_13: -2934235575200586864
+      Banana_Bonav=nza_LO_14: 1829376276943743855
+      Banana_Bonav=nza_LO_15: -6823486097273822985
+      Banana_Bonav=nza_LO_16: -5808558842537350276
+      Banana_Bonav=nza_LO_17: 3988097436804969013
+      Banana_Bonav=nza_LO_18: 1776734890806865949
+      Banana_Bonav=nza_LO_19: 9057096582275379722
+      Banana_Bonav=nza_LO_2: -6388495837346342113
+      Banana_Bonav=nza_LO_20: -2252969441354053323
+      Banana_Bonav=nza_LO_21: 4338725486322042780
+      Banana_Bonav=nza_LO_22: -359692157372210975
+      Banana_Bonav=nza_LO_23: -241960433562971469
+      Banana_Bonav=nza_LO_24: -1414463083577184897
+      Banana_Bonav=nza_LO_25: 6784556244430469030
+      Banana_Bonav=nza_LO_26: 2087617625329929154
+      Banana_Bonav=nza_LO_27: -4904689992768057226
+      Banana_Bonav=nza_LO_28: -2521511909357462277
+      Banana_Bonav=nza_LO_3: -2828995926224090711
+      Banana_Bonav=nza_LO_4: -8733625804325697621
+      Banana_Bonav=nza_LO_5: 3844691301215239252
+      Banana_Bonav=nza_LO_6: -527622808627523550
+      Banana_Bonav=nza_LO_7: 2711146664075828741
+      Banana_Bonav=nza_LO_8: -1253977612540333958
+      Banana_Bonav=nza_LO_9: -615311203288991797
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
