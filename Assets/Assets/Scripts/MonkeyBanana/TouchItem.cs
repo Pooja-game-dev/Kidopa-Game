@@ -1,27 +1,29 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using Lean.Touch;
 public class TouchItem : MonoBehaviour
 {
-    private Vector3 _dragOffset;
-    private Camera _cam;
+     private Vector3 _dragOffset;
+     private Camera _cam;
 
-    [SerializeField] private float _speed = 10;
+     [SerializeField] private float _speed = 10;
 
-    void Awake() {
-        _cam = Camera.main;
-    }
+     void Awake() {
+         _cam = Camera.main;
+     }
 
-    void OnMouseDown() {
-        _dragOffset = transform.position - GetMousePos();
-    }
+     void OnMouseDown() {
+         _dragOffset = transform.position - GetMousePos();
+     }
 
-    void OnMouseDrag() {
-        transform.position = Vector3.MoveTowards(transform.position, GetMousePos() + _dragOffset, _speed * Time.deltaTime) ;
-    }
+     void OnMouseDrag() {
+         transform.position = Vector3.MoveTowards(transform.position, GetMousePos() + _dragOffset, _speed * Time.deltaTime) ;
+     }
 
-    Vector3 GetMousePos() {
-        var mousePos = _cam.ScreenToWorldPoint(Input.mousePosition);
-        mousePos.z = 0;
-        return mousePos;
-    }
+     Vector3 GetMousePos() {
+         var mousePos = _cam.ScreenToWorldPoint(Input.mousePosition);
+         mousePos.z = 0;
+         return mousePos;
+     }
+    
 }
