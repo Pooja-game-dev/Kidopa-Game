@@ -8,6 +8,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Assets/Scenes/MainMenu.unity
+    guid: 3ee34c9923c29984b9c78eef9c3e9b93
+  - enabled: 1
+    path: Assets/Assets/Scenes/MonkeyBanana.unity
+    guid: 54f97aff2abdc8743918cb77d6331665
+  - enabled: 1
+    path: Assets/Assets/Scenes/MonkeyBanana2.unity
+    guid: c1de6ee8e74aa3545bbb89aa579faf60
+  - enabled: 1
+    path: Assets/Assets/Scenes/PuzzelFarm.unity
+    guid: 6545f92a2f8b4bd4782cc654d9416a6f
+  - enabled: 1
+    path: Assets/Assets/Scenes/SpellingSafari.unity
+    guid: ef253a5dd9f3f004a9c5669364b84cf2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

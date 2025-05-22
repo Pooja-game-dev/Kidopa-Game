@@ -19,5 +19,7 @@ public class LetterButton : MonoBehaviour
     {
         letter = l;
         GetComponentInChildren<TMPro.TMP_Text>().text = l;
+        Debug.Log("this wrk well");
+     
     }
 }

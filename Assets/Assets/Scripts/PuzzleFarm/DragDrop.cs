@@ -2,52 +2,12 @@ using UnityEngine;
 using Lean.Touch;
 public class DragDrop : MonoBehaviour
 {
-      private bool isDragging = false;
-       private Vector3 offset, originalPos;
-       private Camera mainCamera;
-       public DragDropManager manager;
-       private void Start()
-     {
-         mainCamera = Camera.main;
-         originalPos = transform.position;
-     }
-       private void OnMouseDown()
-       {
-           isDragging = true;
-           Vector3 mouseWorldPos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
-           offset = transform.position - new Vector3(mouseWorldPos.x, mouseWorldPos.y, transform.position.z);
-       }
-       private void OnMouseDrag()
-       {
-           if (isDragging)
-           {
-               Vector3 mouseWorldPos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
-               transform.position = new Vector3(mouseWorldPos.x, mouseWorldPos.y, transform.position.z) + offset;
-           }
-       }
-       private void OnMouseUp()
-       {
-           isDragging = false;
-
-       }
-
-   private void OnTriggerEnter2D(Collider2D other) {
-         if (other.gameObject.tag == this.gameObject.tag)
-         {
-             this.gameObject.SetActive(false);
-             Debug.Log(other.transform.position);
-             Debug.Log("Success!");
-                manager.RegisterSuccess();
-
-           }
-   }
-
-    
-
-/* private Vector3 offset;
-    private Vector3 originalPos;
-    private Camera mainCamera;
+  
     private bool isDragging = false;
+    private Vector3 offset, originalPos;
+    private Camera mainCamera;
+    private LeanFinger activeFinger;
+
     public DragDropManager manager;
 
     void Start()
@@ -59,18 +19,18 @@ public class DragDrop : MonoBehaviour
     void OnEnable()
     {
         LeanTouch.OnFingerDown += HandleFingerDown;
-        LeanTouch.OnFingerUp += HandleFingerUp;
         LeanTouch.OnFingerUpdate += HandleFingerUpdate;
+        LeanTouch.OnFingerUp += HandleFingerUp;
     }
 
     void OnDisable()
     {
         LeanTouch.OnFingerDown -= HandleFingerDown;
-        LeanTouch.OnFingerUp -= HandleFingerUp;
         LeanTouch.OnFingerUpdate -= HandleFingerUpdate;
+        LeanTouch.OnFingerUp -= HandleFingerUp;
     }
 
-    private void HandleFingerDown(LeanFinger finger)
+    void HandleFingerDown(LeanFinger finger)
     {
         // Raycast to check if this object was touched
         Ray ray = mainCamera.ScreenPointToRay(finger.ScreenPosition);
@@ -78,39 +38,59 @@ public class DragDrop : MonoBehaviour
 
         if (hit.collider != null && hit.collider.gameObject == gameObject)
         {
+            activeFinger = finger;
             isDragging = true;
 
-            Vector3 worldPos = mainCamera.ScreenToWorldPoint(finger.ScreenPosition);
-            offset = transform.position - new Vector3(worldPos.x, worldPos.y, transform.position.z);
+            Vector3 fingerWorldPos = GetWorldPosition(finger);
+            offset = transform.position - fingerWorldPos;
         }
     }
 
-    private void HandleFingerUpdate(LeanFinger finger)
+    void HandleFingerUpdate(LeanFinger finger)
     {
-        if (isDragging)
+        if (isDragging && finger == activeFinger)
         {
-            Vector3 worldPos = mainCamera.ScreenToWorldPoint(finger.ScreenPosition);
-            transform.position = new Vector3(worldPos.x, worldPos.y, transform.position.z) + offset;
+            Vector3 fingerWorldPos = GetWorldPosition(finger);
+            transform.position = fingerWorldPos + offset;
         }
     }
 
-    private void HandleFingerUp(LeanFinger finger)
+    void HandleFingerUp(LeanFinger finger)
     {
-        if (isDragging)
+        if (finger == activeFinger)
         {
             isDragging = false;
+            activeFinger = null;
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    Vector3 GetWorldPosition(LeanFinger finger)
+    {
+        Vector3 worldPos = mainCamera.ScreenToWorldPoint(finger.ScreenPosition);
+        worldPos.z = 0; // Keep it in 2D plane
+        return worldPos;
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == this.gameObject.tag)
         {
+            // Deactivate this object
             this.gameObject.SetActive(false);
-            Debug.Log(other.transform.position);
+
+            // Show the target sprite (e.g., drop zone)
+            SpriteRenderer sr = other.gameObject.GetComponent<SpriteRenderer>();
+            if (sr != null)
+                sr.enabled = true;
+
+            Debug.Log("Dropped at: " + other.transform.position);
             Debug.Log("Success!");
+
             manager.RegisterSuccess();
         }
-    }*/
+    }
+
+   
+
 }
 
