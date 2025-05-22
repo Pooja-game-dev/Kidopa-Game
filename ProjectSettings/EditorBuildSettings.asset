@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Assets/Scenes/MainMenu.unity
+    path: Assets/Assets/Scenes/Manager/MainMenu.unity
     guid: 3ee34c9923c29984b9c78eef9c3e9b93
   - enabled: 1
     path: Assets/Assets/Scenes/MonkeyBanana.unity
@@ -23,6 +23,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Assets/Scenes/SpellingSafari.unity
     guid: ef253a5dd9f3f004a9c5669364b84cf2
+  - enabled: 1
+    path: Assets/Assets/Scenes/PuzzleGame/Puzzle_Level_1.unity
+    guid: e548fa459e7b2304599071c0296c4a1c
+  - enabled: 1
+    path: Assets/Assets/Scenes/PuzzleGame/Puzzle_Level_2.unity
+    guid: 753602fdab7b39742a87386229d4661f
+  - enabled: 1
+    path: Assets/Assets/Scenes/PuzzleGame/Puzzle_Level_3.unity
+    guid: 39e2bd49e913d984c903ee2bf3583eae
+  - enabled: 1
+    path: Assets/Assets/Scenes/PuzzleGame/Puzzle_Level_4.unity
+    guid: 86503fe0a15df824991a1478f849af13
+  - enabled: 1
+    path: Assets/Assets/Scenes/PuzzleGame/Puzzle_Level_5.unity
+    guid: 1287c2b6373050f4b8a2d5c6fddf8111
+  - enabled: 1
+    path: Assets/Assets/Scenes/Manager/MenuScene.unity
+    guid: 0c6068e0b2803b9488e9584151ddc1dd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
